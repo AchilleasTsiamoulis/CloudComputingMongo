@@ -1,1 +1,2 @@
 # CloudComputingMongo
+# Προετοιμασία χρήστη
