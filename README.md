@@ -7,10 +7,10 @@
 - docker-compose up -d
 
 ### Με την εντολή αυτή βλέπουμε όλα τα images του docker. <br />
-- docker images
+-     docker images
 
 ### Με την εντολή αυτή βλέπουμε πληροφορίες του image και όλα τα ενεργά instances. <br />
-- { docker ps }
+- docker ps 
 
 ### Με την εντολή αυτή χρησιμοποιούμε το πρώτο instance (mongo1) για να τρέξουμε την εντολή mongo και να εισέρθουμε στην βάση MongoDB. <br />
 - docker exec -it mongo1 mongo
