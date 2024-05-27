@@ -14,3 +14,15 @@
 
 ### Με την εντολή αυτή χρησιμοποιούμε το πρώτο instance (mongo1) για να τρέξουμε την εντολή mongo και να εισέρθουμε στην βάση MongoDB. <br />
 - docker exec -it mongo1 mongo
+
+### Με 
+- rs.initiate(
+  {
+    _id: "rs0",
+    members: [
+      { _id: 0, host: "mongo1:27017" },
+      { _id: 1, host: "mongo2:27017" },
+      { _id: 2, host: "mongo3:27017" }
+    ]
+  }
+)
