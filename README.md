@@ -51,10 +51,13 @@
 ### Εισαγωγή στοιχείου.
 -     db.collection_name.insert({ key: "value", key2: "value2" })
 ### Εύρεση ενός στοιχείου.
--     db.collection_name.find()
-### Διαγραφή ενός στοιχείου.
+-     db.collection_name.find(key: "value")
+### Ενημέρωση ενός στοιχείου.
 -     db.collection_name.update(
           { key: "value" },          
           { $set: { key2: "new_value" } }  
       )
+### Διαγραφή ενός στοιχείου.
+-     db.collection_name.remove({ key: "value" })
+
 
