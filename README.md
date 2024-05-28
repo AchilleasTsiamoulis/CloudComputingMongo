@@ -14,16 +14,16 @@
 ### Στον ήδη υπάρχων κατάλογο κατεβάζουμε όλα τα αρχεία με την εντολή:
 -     git clone <το δοθέν link από το github>
 
-### Δημιουργούμε το MongoDB image και τα instances. <br />
+### Δημιουργούμε το MongoDB image και τα containers. <br />
 -     docker-compose up -d
 
 ### Με την εντολή αυτή βλέπουμε όλα τα images του docker. <br />
 -     docker images
 
-### Με την εντολή αυτή βλέπουμε πληροφορίες του image και όλα τα ενεργά instances. <br />
+### Με την εντολή αυτή βλέπουμε πληροφορίες του image και όλα τα ενεργά containers. <br />
 -     docker ps 
 
-### Με την εντολή αυτή χρησιμοποιούμε το πρώτο instance (mongo1) για να τρέξουμε την εντολή mongo και να εισέρθουμε στην βάση MongoDB. <br />
+### Με την εντολή αυτή χρησιμοποιούμε το πρώτο container (mongo1) για να τρέξουμε την εντολή mongo και να εισέρθουμε στην βάση MongoDB. <br />
 -     docker exec -it mongo1 mongo
 
 ### Την εντολή αυτή την εισάγουμε μέσα στην MongoDB και δημιουργεί το replica μας.
@@ -40,6 +40,7 @@
 
 ### Με την εντολή αυτή επαληθεύουμε την κατάσταση του replica.
 -     rs.status()
+
 
 # Χρήση MongoDB
 Εφόσον το επιθυμεί ο χρήστης μπορεί να χρησιμοποιήσει την βάση με κάποιες απο τις παρακάτω εντολές.
@@ -63,5 +64,28 @@
 -     db.collection_name.drop()
 ### Διαγραφή βάσης δεδομένων.
 -     db.dropDatabase()
+
+
+# Διαγραφή container και image
+### Για να διαγράψουμε τα container τρέχουμε την εντολή docker ps, όπως παραπάνω και στην συνέχεια:
+-     docker stop <container id ή name> && docker rm <container id>
+### Για να διαγράψουμε τα images τρέχουμε την εντολή docker images, όπως παραπάνω και στην συνέχεια:
+-     docker rmi <image id> --force 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
