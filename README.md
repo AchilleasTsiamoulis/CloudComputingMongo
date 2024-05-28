@@ -59,5 +59,9 @@
       )
 ### Διαγραφή ενός στοιχείου.
 -     db.collection_name.remove({ key: "value" })
+### Διαγραφή συλλογής.
+-     db.collection_name.drop()
+### Διαγραφή βάσης δεδομένων.
+-     db.dropDatabase()
 
 
