@@ -44,5 +44,17 @@
 # Χρήση MongoDB
 Εφόσον το επιθυμεί ο χρήστης μπορεί να χρησιμοποιήσει την βάση με κάποιες απο τις παρακάτω εντολές.
 
-### Εναλλαγή σε μία βάση
+### Εναλλαγή σε μία βάση.
 -     use <database name>
+### Δημιουργία συλλογής.
+-     db.createCollection("collection_name")
+### Εισαγωγή στοιχείου.
+-     db.collection_name.insert({ key: "value", key2: "value2" })
+### Εύρεση ενός στοιχείου.
+-     db.collection_name.find()
+### Διαγραφή ενός στοιχείου.
+-     db.collection_name.update(
+          { key: "value" },          
+          { $set: { key2: "new_value" } }  
+      )
+
