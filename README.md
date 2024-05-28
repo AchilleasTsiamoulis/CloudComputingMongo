@@ -12,7 +12,7 @@
 
 # Υλοποίηση MongoDB  
 ### Στον ήδη υπάρχων κατάλογο κατεβάζουμε όλα τα αρχεία με την εντολή:
--     git clone <το δοθέν link από το github>
+-     git clone https://github.com/AchilleasTsiamoulis/CloudComputingMongo.git
 
 ### Δημιουργούμε το MongoDB image και τα containers. <br />
 -     docker-compose up -d
