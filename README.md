@@ -12,6 +12,8 @@
 -     chmod +x prepare.sh
 Έπειτα μπορεί να τρέξει το script με την εντολή:
 -     ./prepare.sh
+Σε περίπτωση που λάβουμε μήνυμα όπως "zsh: ./prepare.sh: bad interpreter: /bin/bash^M: no such file or directory"
+-     sed -i -e 's/\r$//' prepare.sh
 
 
 # Υλοποίηση MongoDB  
