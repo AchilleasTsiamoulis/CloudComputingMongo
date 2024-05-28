@@ -66,7 +66,7 @@
 -     db.dropDatabase()
 
 
-# Διαγραφή container και image
+# Διαγραφή containers και images
 ### Για να διαγράψουμε τα containers τρέχουμε την εντολή docker ps, όπως παραπάνω και στην συνέχεια:
 -     docker stop <container id ή name> && docker rm <container id>
 ### Μπορούμε επίσης να σβήσουμε τα containers και τα netowrks με την εντολή:
