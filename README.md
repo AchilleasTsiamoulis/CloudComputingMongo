@@ -11,7 +11,10 @@
 
 
 # Υλοποίηση MongoDB  
-### Δημιουργία του MongoDB image και των instances. <br />
+### Στον ήδη υπάρχων κατάλογο κατεβάζουμε όλα τα αρχεία με την εντολή:
+-     git clone <το δοθέν link από το github>
+
+### Δημιουργούμε το MongoDB image και τα instances. <br />
 -     docker-compose up -d
 
 ### Με την εντολή αυτή βλέπουμε όλα τα images του docker. <br />
