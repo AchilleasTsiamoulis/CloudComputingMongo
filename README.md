@@ -67,11 +67,14 @@
 
 
 # Διαγραφή container και image
-### Για να διαγράψουμε τα container τρέχουμε την εντολή docker ps, όπως παραπάνω και στην συνέχεια:
+### Για να διαγράψουμε τα containers τρέχουμε την εντολή docker ps, όπως παραπάνω και στην συνέχεια:
 -     docker stop <container id ή name> && docker rm <container id>
+### Μπορούμε επίσης να σβήσουμε τα containers και τα netowrks με την εντολή:
+-     docker-compose down
 ### Για να διαγράψουμε τα images τρέχουμε την εντολή docker images, όπως παραπάνω και στην συνέχεια:
 -     docker rmi <image id> --force 
-
+### Πλήρης αφαίρεση όλων των images, των containers, των volumes και των networks:
+-     docker system prune -a 
 
 
 
