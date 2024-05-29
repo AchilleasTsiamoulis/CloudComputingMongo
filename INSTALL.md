@@ -12,7 +12,7 @@
 
 Αφού δούμε το σημαδάκι ">" τρέχουμε την παρακάτω εντολή για να δημιουργήσουμε το replica μας. <br/> <br/>
 rs.initiate( <br/>
-&nbsp;  { <br/>
+&nbsp; &nbsp; { <br/>
     _id: "rs0", <br/>
     members: [ <br/>
       { _id: 0, host: "mongo1:27017" }, <br/>
