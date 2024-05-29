@@ -7,8 +7,8 @@
 λαμβάνουμε πληροφορίες για τα container μας. Από εδώ θα χρειαστούμε μόνο τα ονόματα. Έτσι, με την εντολή <br/> <br/>
 **sudo docker exec -it mongo1 mongo** <br/> <br/>
 εισερχόμαστε στο container με όνομα mongo1 και τρέχουμε την εντολή mongo για να συνδεθούμε στην MongoDB. Αφού δούμε το σημαδάκι ">" τρέχουμε την παρακάτω εντολή για να δημιουργήσουμε το replica μας. <br/> <br/>
-**rs.initiate( <br/>
+rs.initiate( <br/>
     { <br/>
       _id: "rs0", <br/>
-      members: [ <br/>  { _id: 0, host: "mongo1:27017" }, <br/>  { _id: 1, host: "mongo2:27017" }, <br/>  { _id: 2, host: "mongo3:27017" } <br/>  ] <br/>  } <br/>  )**
+      members: [ <br/>  { _id: 0, host: "mongo1:27017" }, <br/>  { _id: 1, host: "mongo2:27017" }, <br/>  { _id: 2, host: "mongo3:27017" } <br/>  ] <br/>  } <br/>  )
 
