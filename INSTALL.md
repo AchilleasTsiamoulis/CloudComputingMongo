@@ -13,14 +13,14 @@
 Αφού δούμε το σημαδάκι ">" τρέχουμε την παρακάτω εντολή για να δημιουργήσουμε το replica μας. <br/> <br/>
 rs.initiate( <br/>
 &nbsp; &nbsp; { <br/>
-    _id: "rs0", <br/>
-    members: [ <br/>
-      { _id: 0, host: "mongo1:27017" }, <br/>
-      { _id: 1, host: "mongo2:27017" }, <br/>
-      { _id: 2, host: "mongo3:27017" } <br/>
-    ] <br/>
-  } <br/>
-)<br/> <br/>
+&nbsp; &nbsp; _id: "rs0", <br/>
+&nbsp; &nbsp; members: [ <br/>
+&nbsp; &nbsp; { _id: 0, host: "mongo1:27017" }, <br/>
+&nbsp; &nbsp; { _id: 1, host: "mongo2:27017" }, <br/>
+&nbsp; &nbsp; { _id: 2, host: "mongo3:27017" } <br/>
+&nbsp; &nbsp; ] <br/>
+&nbsp; &nbsp; } <br/>
+&nbsp; &nbsp; )<br/> <br/>
 
 Επαληθεύουμε την κατάσταση του replica μας με την εντολή <br/> <br/>
 **rs.status()** <br/> <br/>
