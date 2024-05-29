@@ -15,9 +15,9 @@ rs.initiate( <br/>
 &nbsp; &nbsp; { <br/>
 &nbsp; &nbsp; &nbsp; &nbsp; _id: "rs0", <br/>
 &nbsp; &nbsp; &nbsp; &nbsp;members: [ <br/>
-&nbsp; &nbsp; &nbsp; &nbsp;{ _id: 0, host: "mongo1:27017" }, <br/>
-&nbsp; &nbsp; &nbsp; &nbsp;{ _id: 1, host: "mongo2:27017" }, <br/>
-&nbsp; &nbsp; &nbsp; &nbsp;{ _id: 2, host: "mongo3:27017" } <br/>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; { _id: 0, host: "mongo1:27017" }, <br/>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; { _id: 1, host: "mongo2:27017" }, <br/>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; { _id: 2, host: "mongo3:27017" } <br/>
 &nbsp; &nbsp; ] <br/>
 &nbsp; &nbsp; } <br/>
 &nbsp; &nbsp; )<br/> <br/>
