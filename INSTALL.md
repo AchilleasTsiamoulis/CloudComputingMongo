@@ -1,9 +1,9 @@
 Στο αρχείο αυτό θα αναφερθούμε αποκλειστικά στις εντολές εγκατάστασης του MongoDB Replica μας. <br/> <br/>
 Αφού έχουμε κατεβάσει όλα τα απαραίτητα εργαλεία, τρέχουμε την εντολη <br/>
-- docker-compose up -d 
+docker-compose up -d <br/>
 με την οποία δημιουργούμε το image μας και τα container μας. <br/> <br/>
 Στην συνέχεια με την εντολή <br/>
-- docker ps
+docker ps
 λαμβάνουμε πληροφορίες για τα container μας. Από εδώ θα χρειαστούμε μόνο τα ονόματα. Έτσι, με την εντολή <br/>
-- docker exec -it mongo1 mongo <br/>
+docker exec -it mongo1 mongo <br/>
 εισερχόμαστε στο container με όνομα mongo1 και τρέχουμε την εντολή mongo για να συνδεθούμε στην MongoDB. <br/>
